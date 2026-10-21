@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222222;
+    margin: 20px;
+}
+
+h1 {
+    color: #1c8a16;
+    text-align: center;
+}
+
+h2 {
+    color: #168a35;
+}
+
+div {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #168a37;
+    color: white;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    background-color: #168a3f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.account-card {
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #dddddd;
+}
+
+
+.accounts-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.account-card {
+    flex: 1 1 220px;
+}
+
+
+
